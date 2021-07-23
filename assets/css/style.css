@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#87CEEB;
+    background-image: url(../img/main-bg.png);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #191970;
+    margin: 20px 0;
+}
+
+.busca {
+    display: flex;
+    width: 500px;
+}
+.busca #searchInput {
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+    color: #191970;
+    
+}
+.busca button {
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+    background-color: #191970;
+    color: #FFF;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.busca button:hover {
+    background-color: #000080;
+}
+
+.resultado {
+    width: 500px;
+    display: none;
+    border: 3px solid #FFF;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: rgba(25,25,112, 0.5);
+}
+
+
+
+.titulo {
+    width: 100%;
+    color: #FFF;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+}
+.info .temp {
+    flex: 1;
+    text-align: center;
+}
+.info .vento {
+    flex: 1;
+    text-align: center;
+}
+.tempTitulo,
+.ventoTitulo {
+    color: #FFF;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.tempInfo,
+.ventoInfo {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+.tempInfo sup {
+    font-size: 15px;
+    font-weight: normal;
+}
+.ventoInfo span {
+    font-size: 15px;
+    font-weight: normal;
+}
+.ventoArea {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.ventoPonto {
+    width: 15px;
+    height: 1px;
+    background-color: #FFF;
+    transform-origin: left;
+    
+}
+
+.aviso {
+    color: #191970;
+    padding-top: 20px;
+}
+
+.tempInfo,
+.humiInfo {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.humiInfo span{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+.tempInfo,
+.senInfo {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.tempInfo,
+.descInfo {
+    color: #FFF;
+    font-size: 30px;
+    font-weight: bold;
+}
+.senInfo sup{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+footer {
+    margin-top: 80px;
+    color: #191970;
+    font-size: 20px;
+}

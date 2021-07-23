@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Tempo Agora</h1>
+
+    <form class="busca">
+        <input type="search" id="searchInput" placeholder="Localidade" />
+        <button>Buscar</button>
+    </form>
+  
+
+    <div class="resultado">
+        <div class="titulo">--</div>
+
+        <div class="info">
+            <div class="temp">
+                <div class="tempTitulo">Temperatura</div>
+                <div class="tempInfo">-- <sup>ºC</sup></div>
+                <div class="tempTitulo">Humidade</div>
+                <div class="humiInfo">-- <spam>%</spam></div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+                  
+            </div>
+            <div class="vento">
+                <div class="ventoTitulo">Vento</div>
+                <div class="ventoInfo">-- <span>km/h</span></div>
+                <div class="ventoArea">
+                    <div class="ventoPonto" style="transform: rotate(0deg)"></div>
+                </div>
+                <div class="tempTitulo">Sensação Termica</div>
+                <div class="senInfo">-- <sup>ºC</sup></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="aviso"></div>
+
+    <footer>&copy; Leandro Portugal</footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
